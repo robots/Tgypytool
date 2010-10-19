@@ -1,0 +1,22 @@
+Toolkit for Turnigy Super Brain ESC 
+By: Michal Demin <michal.demin@gmail.com>
+--------------------------------------------------
+
+This toolkit has been created to help people work with this ESC
+in environment other than Win32. Few features have not yet been 
+implemented.
+
+What is working:
+- configuration read/write (creates nice TEXT config file)
+- log read/clear
+- DLC file parsing, creating
+
+To be tested:
+- firmware upload
+- graphing tool
+ 
+To be added:
+- correct scales for graphs
+- log parameter changing (only needs user interface)
+
+
