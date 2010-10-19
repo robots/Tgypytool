@@ -3,8 +3,8 @@ By: Michal Demin <michal.demin@gmail.com>
 --------------------------------------------------
 
 This toolkit has been created to help people work with this ESC
-in environment other than Win32. Few features have not yet been 
-implemented.
+in environment other than Win32 (developed on linux). Few features 
+have not yet been implemented.
 
 What is working:
 - configuration read/write (creates nice TEXT config file)
@@ -19,4 +19,20 @@ To be added:
 - correct scales for graphs
 - log parameter changing (only needs user interface)
 
+
+What you will need:
+- kernel support for cp210x
+- python
+- python modules - matplotlib, pyserial
+
+usage:
+tgypytool.py -p PORT [-v] [-e] [-c config_to_set] [-o read_config] [-f firmware_to_flash] [-l logfile_prefix]
+
+-p - port where the ESC sits (/etc/ttyUSB0)
+-v - verbose
+-e - erase log
+-c file - reads file and sets parameters accordingly
+-o file - reads parameters and writes them into file
+-f file - writes firmware from file (EXPERIMENTAL)
+-l log  - reads device log, and writes several log[1-9] files
 
