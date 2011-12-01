@@ -1,0 +1,20 @@
+XH
+H A areas 2 global symbols
+S __start__stack Ref0000
+A _CODE size 0 flags 0 addr 0
+A CSEG size 0 flags 20 addr 0
+A GSINIT0 size 3 flags 20 addr 0
+S __sdcc_gsinit_startup Def0000
+A GSINIT1 size 0 flags 20 addr 0
+A GSINIT2 size 0 flags 20 addr 0
+A GSINIT3 size 0 flags 20 addr 0
+A GSINIT4 size 0 flags 20 addr 0
+A GSINIT5 size 0 flags 20 addr 0
+A GSINIT size 0 flags 20 addr 0
+A GSFINAL size 0 flags 20 addr 0
+T 00 00
+R 00 00 00 02
+T 00 00 75 81 FF FF FF
+R 00 00 00 02 F1 03 04 00 00
+T 00 00
+R 00 00 00 04

@@ -1,0 +1,12 @@
+
+This directory contains tools to "hack", modify the firmware. 
+
+dumper - contains alternative firmware, that will dump the internal flash of the
+ 8051 cpu. This was used to get the bootloader code out for study. You will
+ need SDCC compiler and as.py tool from "tools" dir.
+
+tools - as.py, and dis.py. Assembler and disassembler for the DLC firmware files.
+
+fw-mod - my attempt to modify the behaviour of the "adaptive throttle" range, that
+ causes trouble in noisy environment. Changes I made are somewhat commented. 
+ You will need as31 assembler software from http://www.pjrc.com/tech/8051/
